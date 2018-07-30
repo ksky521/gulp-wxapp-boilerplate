@@ -18,7 +18,7 @@
     "node": ">=8"
   },
   "author": "ksky521@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ansi-colors": "^2.0.5",
     "babel-core": "^6.26.3",
