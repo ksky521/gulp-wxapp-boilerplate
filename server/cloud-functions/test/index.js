@@ -10,18 +10,14 @@
         2. 在微信开发者工具中，右击云函数test目录，选择‘上传并部署’，即可同步至云端
 */
 
-
 // 支持引入共同模块
 /*<jdists import="../../inline/utils.js" />*/
 
 // 这个云函数将传入的 a 和 b 相加返回
 
-exports.main = (event, context) => {
-  console.log(event)
-  console.log(context)
-  
-  return {
-    event,
-    sum: event.a + event.b
-  }
+exports.main = async (event) => {
+  let {a, b} = event
+  return new Promise((resolve, reject) => {
+    resolve({result: parseInt(a) + parseInt(b)})
+  })
 }
