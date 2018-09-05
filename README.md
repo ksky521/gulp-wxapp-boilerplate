@@ -11,7 +11,6 @@
 
 ## 配置
 
-* tcb.json 是小程序云的配置，详见[文档](https://github.com/TencentCloudBase/tcb-cli#tcbjson-%E9%85%8D%E7%BD%AE%E9%A1%B9%E7%9B%AE)
 * config.server.json 是 mock server 的配置
 
 ## 目录结构
@@ -45,7 +44,6 @@
 │   │   └── utils.js
 │   └── static
 │       └── gulp.png
-├── tcb.json     // 腾讯小程序云测试配置
 └── test         // 测试文件夹
     └── functions  // 存储小程序云测试用的参数模板
         └── test.json
@@ -76,5 +74,3 @@ npm run build
 
 
 
-## test/functions 是云函数的测试参数
-详细命令行用法，见文档：https://github.com/TencentCloudBase/tcb-cli/blob/master/docs/functions.md
