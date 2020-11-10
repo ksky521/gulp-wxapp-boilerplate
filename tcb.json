@@ -4,7 +4,7 @@
   },
   "proxy": "http://localhost:3000/",
   "https_proxy": "",
-  "mpappid": "wx86968cbd851e6ce6",
+  "mpappid": "xxxxx",
   "env": "tianqi-1d3bf9",
   "secretid": "xxxxx",
   "secretkey": "xxxxx"
